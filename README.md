@@ -10,7 +10,9 @@ DAY 2:
 
     -Task_1 : create a terminal Calculator takes arguments in the run command. ex:(java Calc 9 + 4) 
       -note : * is replaced with x
-    -Task_2 : receiving an "IP" as argument in the terminal make sure it is a valid ip string (4 parts, each part is 0->255) then print it as cutted string
+    -Task_2 : receiving an "IP" as argument in the terminal make sure it is a valid ip string 
+        (4 parts, each part is 0->255) then print it as cutted string, 
+        using 3 methods: index of with substring, tokenizer and split
     -Task_3 : print this patterns, in one line
               *           *
              ***          ***

@@ -31,7 +31,7 @@ DAY 3:
     -Task_1 : Create an applet that loads and displays an image on it, Scale to fit
     -Task_2 : Create an applet that displays list of available fonts -(deprecated and new (check documentation))-
     -Task_3 : Draw the following in an applet (using Graphics methods)
-    ![image](https://user-images.githubusercontent.com/95314680/149021087-83d1398d-9e33-4cfd-82c9-5e1afe8a97a6.png)
-    <img src="https://user-images.githubusercontent.com/95314680/149021087-83d1398d-9e33-4cfd-82c9-5e1afe8a97a6.png" alt="alt text" title="Lamb"/>
+    
+![image](https://user-images.githubusercontent.com/95314680/149021087-83d1398d-9e33-4cfd-82c9-5e1afe8a97a6.png)
 
     

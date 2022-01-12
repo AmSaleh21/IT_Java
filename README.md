@@ -36,4 +36,10 @@ DAY 3:
     
 ![image](https://user-images.githubusercontent.com/95314680/149021087-83d1398d-9e33-4cfd-82c9-5e1afe8a97a6.png)
 
+DAY 4:
+    
+    - Task_1 : Using threads display the date and time in an applet, that updates each second
+    - TasK_2 : Marquee text
+    - Task_3 : Create an applet that has a ball bouncing in that applet 
+        handling the conditions of said applet increase or decrease in size (manual)
     

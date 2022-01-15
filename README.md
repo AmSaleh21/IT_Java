@@ -57,6 +57,9 @@ Day 5: inline Classes and event handling
 ![image](https://user-images.githubusercontent.com/95314680/149340799-5b32cc80-9ab6-480f-8db3-7244dca92755.png) ![image](https://user-images.githubusercontent.com/95314680/149340841-5b6acc6c-d579-4769-a272-b5674552722e.png) ![image](https://user-images.githubusercontent.com/95314680/149340920-dda32cb5-27ed-458a-9222-2b4ffda0e7ee.png)
 
 
-
-
-   
+Day 6: filestream, Networking and GUI
+    
+    -Task_1 : Write in a txt file a stram of data sent as args
+    -Task_2 : Simple server client, send a message and close both
+    -Task_3 : Create a chat Application using threads, server and multiple clients, the server know when 
+        a client is open or closed and closes when all clients are closed.

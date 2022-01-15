@@ -69,7 +69,7 @@ public class ChatApp extends JFrame implements Runnable {
     textField.setText(""); //clear the TF after the data is sent
   }
 
-  //this is to find which window has closed, see main and handler
+  //this is to find which window has closed, see main and handler (ignored till later release)
   public void sendMessage(String message){
     printStream.print(message);
   }

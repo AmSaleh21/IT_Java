@@ -10,6 +10,8 @@ import java.io.PrintStream;
 import java.awt.*;
 import java.net.Socket;
 import java.net.InetAddress;
+import java.net.SocketException;
+import java.net.ConnectException;
 
 public class ChatApp extends JFrame implements Runnable {
   Socket socket;
@@ -29,7 +31,10 @@ public class ChatApp extends JFrame implements Runnable {
       socket = new Socket(InetAddress.getLocalHost(), 5000);
       dataInputStream = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
       printStream = new PrintStream(socket.getOutputStream());
-    } catch (IOException e) {
+    } catch (ConnectException ce) { // if the client tried to run and no server is up
+      System.out.println("Server isn't running can't instantiate the connection, closing");
+      System.exit(1);
+    }catch (IOException e) {
       e.printStackTrace();
     }
 
@@ -81,7 +86,11 @@ public class ChatApp extends JFrame implements Runnable {
         //read the incoming data from the server broadcast
         String message = dataInputStream.readLine();
         textarea.append(message + "\n");
-      } catch (IOException e) {
+      } catch (SocketException se) {
+        System.out.println("server closed, closing ");
+        System.exit(1); // if server closed while client is running
+        break;
+      }catch (IOException e) {
         e.printStackTrace();
       }
     }

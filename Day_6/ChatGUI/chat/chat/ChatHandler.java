@@ -50,7 +50,7 @@ public class ChatHandler extends Thread {
         e.printStackTrace();
       } finally {
         if (clients.size() == 0) {
-          System.exit(0);
+          System.exit(0); //close the server when no clients are running
         }
       }
     }

@@ -63,3 +63,7 @@ Day 6: filestream, Networking and GUI
     -Task_2 : Simple server client, send a message and close both
     -Task_3 : Create a chat Application using threads, server and multiple clients, the server know when 
         a client is open or closed and closes when all clients are closed.
+
+Day 7: Database connection
+
+    Task : connect to a Database, add, insert, update, and delete based on user action.

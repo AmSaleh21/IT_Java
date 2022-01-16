@@ -41,7 +41,12 @@ public class SqlMenu {
                 System.out.println("Driver failed");
             }
             try {
-                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "0123456");
+                /*
+                [ph 1] is the database name
+                [ph 2] is the user name
+                [ph 3] for the password
+                */
+                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/[ph 1]", "[ph 2]", "[ph 3]");
             } catch (SQLException e) {
                 System.out.println("con failed");
             }

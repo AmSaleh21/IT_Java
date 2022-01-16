@@ -66,4 +66,8 @@ Day 6: filestream, Networking and GUI
 
 Day 7: Database connection
 
-    Task : connect to a Database, add, insert, update, and delete based on user action.
+    Task : connect to a Database, add, insert, update, and delete based on user action. (replace [ph] with your date)
+        ps. compile with classpath to the jdbc driver to run
+        javac -classpath "path to jdbc.jar" SqlMenu.java
+        java -classpath .;"path to jdbc.jar" SqlMenu
+        

@@ -62,7 +62,7 @@ Day 6: filestream, Networking and GUI
     -Task_1 : Write in a txt file a stram of data sent as args
     -Task_2 : Simple server client, send a message and close both
     -Task_3 : Create a chat Application using threads, server and multiple clients, the server know when 
-        a client is open or closed and closes when all clients are closed.
+        a client is open or closed and closes when all clients are closed, and client refuse to open if the server is down
 
 Day 7: Database connection
 

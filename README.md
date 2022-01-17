@@ -71,3 +71,7 @@ Day 7: Database connection
         javac -classpath "path to jdbc.jar" SqlMenu.java
         java -classpath .;"path to jdbc.jar" SqlMenu
         
+Day 8: JavaFx introduction
+    
+    Task : create hello world fx app (see figure) once using javafx libraries and using css component
+  ![image](https://user-images.githubusercontent.com/95314680/149767213-fe27a58b-3e04-416a-abf1-eab302612020.png)

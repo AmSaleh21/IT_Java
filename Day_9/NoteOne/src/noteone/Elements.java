@@ -32,7 +32,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Ams
+ * @author AmSaleh21
  */
 public class Elements extends BorderPane {
 

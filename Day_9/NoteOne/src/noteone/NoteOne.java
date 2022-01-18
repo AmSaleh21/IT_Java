@@ -1,6 +1,5 @@
 /*
- * A try to create the notepad without scene editor
- *                      ~(-\-)~
+ * a notepad  ~(-\-)~
  */
 package noteone;
 
@@ -11,7 +10,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Ams
+ * @author AmSaleh21
  */
 public class NoteOne extends Application {
 

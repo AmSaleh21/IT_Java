@@ -70,8 +70,17 @@ Day 7: Database connection
         ps. compile with classpath to the jdbc driver to run
         javac -classpath "path to jdbc.jar" SqlMenu.java
         java -classpath .;"path to jdbc.jar" SqlMenu
-        
+
+>> From this point an ide is allowed, thought not required
+
 Day 8: JavaFx introduction
     
     Task : create hello world fx app (see figure) once using javafx libraries and using css component
   ![image](https://user-images.githubusercontent.com/95314680/149767213-fe27a58b-3e04-416a-abf1-eab302612020.png)
+
+Day 9: Javafx, and fx handlers
+    
+    Task : create a NotePad with drop down menus to new save open | cut copy paste undo and more ... check the figure
+        (code pending edits id by //TODO:)
+
+![image](https://user-images.githubusercontent.com/95314680/149858654-226c6cc6-b7be-460e-81e4-7863e63facff.png)
